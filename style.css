@@ -31,7 +31,10 @@ header {
     margin: 0;
     padding: 8px 40px;
 }
-
+.headerLogo {
+    font-size: 21px;
+    font-weight: bold;
+}
 ul {
     display: flex;
     flex-direction: row;
@@ -184,6 +187,7 @@ li {
     font-size: 27px;
     font-weight: bold;
     color: #E5E7EB;
+    padding-bottom: 6px;
 }
 
 .adText {
