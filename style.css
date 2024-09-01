@@ -1,16 +1,42 @@
 body {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-
-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-ul {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+header, .containerOne {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
     gap: 8px;
+}
+
+li {
+    list-style: none;
+}
+
+.headerLink {
+    text-decoration: none;
+    font-style: none;
+    color: white ;
+}
+
+/* FIRST CONTAINER */
+
+.containerOne {
+    display: flex;
+    justify-content: space-evenly;
 }
